@@ -15,6 +15,7 @@ import os
 import time
 print("Bem Vindo ao Fim do Mundo de Pandemia")
 doenca = input('Entre com o nome da Doença: ')
+#Referencia da Probalidade: https://www.the-hospitalist.org/hospitalist/article/218769/coronavirus-updates/covid-19-update-transmission-5-or-less-among-close
 probalidade = int(randint(1,10))
 
 # Parte do Codigo para Limpeza de Tela, mas como funciona apenas no CMD do Windows, Resolvi deixar comentado

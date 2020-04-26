@@ -2,11 +2,11 @@
 Algoritmo Pandemia
 Desenvolvedor: Rodrigo Toledo
 Baseado no Enunciado do Professor Dirceu,
-As Vezes é necessario interagir com o programa, apertando Enter para obter resultados
+As Vezes é necessario interagir com o programa, apertando Enter para obter resultados ou inserindo informações
 
 Após apertar, o enter, pode demorar um pouco, pois coloquei o elemento temporal
 
-Durante o codigo Tem os meus Codigos e referencias as questoes do Professor
+Durante o codigo Tem os meus Codigos e referencias as questoes do Professor e com as questões as respostas
 '''
 import random
 from random import randint
@@ -191,7 +191,7 @@ print("Dirença de Tempo para o ciclo com e sem limitação: "+str(conttempo1-co
 input("Pressione ENTER para continuar:")
 
 #d) No protocolo de epidemia, estudado em classe, nem todos os elementos do sistema podem receber as informações mais atualizadas, isto acontece neste caso? Demonstre.
-
+#Vou mandar Via Email
 #e) Adicione o componente temporal,
 
 
@@ -264,3 +264,12 @@ print("Quantidade de ciclos para infectar todos:" + str(contpassa))
 #E.3) quantas pessoas morrem?
 print("Quantidade de Mortos:" + str(mortes))
 print(doenca+" Ferrou o Mundo :( ")
+
+#f) Como comparar o espalhamento de um vírus, com a consistência de um banco de dados?
+#R: Em questão de Replicação de Dados ou Pessoas contamidas que replicam os virus para outros pelo contato, a Consistência eventual, 
+#como apresenta alguns problemas de Replicação, assosio com as pessoas evitando contando e assim quebrando a replica do Virus
+
+#e) Como você compara cada indivíduo deste exercício, com processos e threads em um sistema distribuído?
+#R: Um Local fechado, seria o processador, e as pessoas são Theads e processos, o virus é o Recurso, se as Theads(Pessoas)
+#no Processador(Local), pararem de compartilhar recursos(Virus), vai ocorrer o Deadlock e as pessoas vão parar de compartilhar o virus
+#

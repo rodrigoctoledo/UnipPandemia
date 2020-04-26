@@ -1,4 +1,5 @@
 '''
+Rodrigo de Camargo Toledo D26EB3-6 CCP13 
 Algoritmo Pandemia
 Desenvolvedor: Rodrigo Toledo
 Baseado no Enunciado do Professor Dirceu,

@@ -15,9 +15,9 @@ import os
 import time
 print("Bem Vindo ao Fim do Mundo de Pandemia")
 doenca = input('Entre com o nome da Doença: ')
-probalidade = int(input('Entre com a Probalidade de Contagio: '))
+probalidade = int(randint(1,10))
 
-# Parte do Codigo para
+# Parte do Codigo para Limpeza de Tela, mas como funciona apenas no CMD do Windows, Resolvi deixar comentado
 '''  matriz[l][c] = int(randint(0,200))
 
 

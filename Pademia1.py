@@ -242,7 +242,7 @@ while(contflag <= 17):
                         elementos2[l][c] = 'Saudavel'
                     # E.2)e que algumas morrem. O que muda neste cenário?
                     # Quantos ciclos demora pras pessoas serem contaminadas,
-                    if Morte <= 30:
+                    if Morte <= 5:
                         elementos2[l][c] = 'Morto'
                         mortes +=1
 
